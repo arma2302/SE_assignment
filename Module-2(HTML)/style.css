@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=REM:wght@300;400&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "REM", sans-serif;
+}
+section {
+  background-color: #a7d0ff;
+}
+h2 {
+  font-size: 18px;
+  font-style: bold;
+  color: brown;
+}
+
+h1 {
+  font-size: 28px;
+  text-align: center;
+  color: brown;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+  margin-top: 0;
+}
+.Firstbox {
+  margin-left: 194px;
+}
+/* .main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 257px;
+} */
+label {
+  width: 175px;
+  text-align: right;
+  display: inline-block;
+  margin-right: 10px;
+}
+.Firstbox div {
+  margin-bottom: 20px;
+}
+.lables {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.lables div {
+  align-self: end;
+  display: flex;
+  justify-content: space-between;
+}
+.lables p {
+  margin-left: 5px;
+}
+.main div {
+  margin-bottom: 5px;
+}
+.secondbox div div,
+.thirdbox div div {
+  margin-bottom: 5px;
+}
+.secondbox,
+.thirdbox {
+  display: flex;
+  justify-content: space-around;
+}
