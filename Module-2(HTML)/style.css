@@ -2,11 +2,13 @@
 
 body {
   margin: 0;
-  padding: 0;
+  padding: 20px;
   font-family: "REM", sans-serif;
 }
 section {
-  background-color: #a7d0ff;
+  /* background-color: #a7d0ff; */
+
+  background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
 }
 h2 {
   font-size: 18px;
@@ -21,6 +23,10 @@ h1 {
   background: rgb(238, 174, 202);
   background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
   margin-top: 0;
+}
+section {
+  padding: 30px 40px;
+  border: 2px solid #000;
 }
 .Firstbox {
   margin-left: 194px;
@@ -66,3 +72,40 @@ label {
   display: flex;
   justify-content: space-around;
 }
+.fourbox {
+  font-size: 18px;
+  color: #2c425b;
+}
+.button_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.button_box button {
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  padding: 10px 20px;
+  background-color: #d2e4f1;
+  color: #0d0f0f;
+  font-weight: 400;
+}
+.links p {
+  font-weight: bold;
+}
+
+.links a:link {
+  color: forestgreen;
+  text-decoration: none;
+  font-size: 20px;
+}
+.links a:visited {
+  color: #2c425b;
+  text-transform: none;
+}
+.links a:hover {
+  color: blueviolet;
+  text-decoration: underline;
+}
+/* *******************TABLE*************** */
